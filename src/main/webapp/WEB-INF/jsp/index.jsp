@@ -15,7 +15,7 @@
 	  <h3>App VestuarioSA</h3>
 	  <h4>Index</h4>
 	  
-	  <p> <a href="https://github.com/ProfessorElberth/lads-fundamentos-web">GITHUB</a> </p>
+	  <p> <a href="https://github.com/brunoblda/AppVestuarioSA">GITHUB</a> </p>
 	</div>
 
 </body>

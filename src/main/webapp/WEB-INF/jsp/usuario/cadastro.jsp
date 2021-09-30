@@ -28,14 +28,14 @@
 			
 				
 				<div class="form-group col-md-5">
-					<label>Nome:</label> <input type="text" value="Teste"
+					<label>Nome:</label> <input type="text" value="alberto"
 						class="form-control" placeholder="Entre com o seu nome"
 						name="nome">
 				</div>
 
 				
 				<div class="form-group col-md-5">
-					<label>E-mail:</label> <input type="email" value="teste@email.com"
+					<label>E-mail:</label> <input type="email" value="alberto@email.com"
 						class="form-control" placeholder="Entre com o seu e-mail"
 						name="email">
 				</div>

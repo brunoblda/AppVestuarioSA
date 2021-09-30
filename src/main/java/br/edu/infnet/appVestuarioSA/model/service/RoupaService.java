@@ -3,6 +3,7 @@ package br.edu.infnet.appVestuarioSA.model.service;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
 import br.edu.infnet.appVestuarioSA.model.domain.Roupa;
@@ -16,7 +17,7 @@ public class RoupaService {
 	private RoupaRepository roupaRepository;
 
 	public List<Roupa> obterLista(Usuario usuario){
-		return (List<Roupa>) roupaRepository.obterLista(usuario.getId());
+		return (List<Roupa>) roupaRepository.obterLista(usuario.getId(), Sort.by(Sort.Direction.ASC, "descricao"));
 	}
 	public List<Roupa> obterLista(){
 		return (List<Roupa>) roupaRepository.findAll();
